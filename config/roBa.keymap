@@ -51,7 +51,7 @@
 
         raycast {
             bindings = <&raycast>;
-            key-positions = <1 37>;
+            key-positions = <38 2>;
         };
     };
 
