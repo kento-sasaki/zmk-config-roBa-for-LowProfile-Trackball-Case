@@ -48,11 +48,6 @@
             bindings = <&kp DOWN_ARROW>;
             key-positions = <31 18>;
         };
-
-        raycast {
-            bindings = <&raycast>;
-            key-positions = <38 2>;
-        };
     };
 
     macros {
