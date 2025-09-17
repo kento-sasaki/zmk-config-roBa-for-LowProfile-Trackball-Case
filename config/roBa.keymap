@@ -72,10 +72,10 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE      &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &kp BACKSPACE  &kp BACKSLASH
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans         &kp RETURN
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans         &trans
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                 &trans
+&kp ESCAPE      &trans  &trans  &trans  &trans                                 &trans  &trans  &trans  &kp BACKSPACE  &kp BACKSLASH
+&trans          &trans  &trans  &trans  &trans  &trans      &trans             &trans  &trans  &trans  &trans         &kp RETURN
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans             &trans  &trans  &trans  &trans         &trans
+&trans          &trans  &trans  &trans  &trans  &trans      &kp RIGHT_COMMAND  &trans                                 &trans
             >;
         };
 
